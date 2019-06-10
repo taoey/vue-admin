@@ -65,7 +65,7 @@ export default [
     component: Main,
     meta: {
       hideInBread: true,
-      itle: '账单管理',
+      title: '账单管理',
       icon: 'ios-book'
     },
     children: [
