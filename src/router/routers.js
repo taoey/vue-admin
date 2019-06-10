@@ -59,15 +59,14 @@ export default [
     }
   },
   //   自定义路由
-
   {
     path: '/bill',
-    name: 'bill',
+    name: '账单管理',
     component: Main,
     meta: {
       hideInBread: true,
-      icon: 'ios-book',
-      title: '账单管理'
+      itle: '账单管理',
+      icon: 'ios-book'
     },
     children: [
       {
@@ -79,9 +78,7 @@ export default [
         },
         component: () => import('@/view/bill/index.vue')
       }
-
     ]
-
   },
 
   {
